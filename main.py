@@ -1,7 +1,7 @@
 import functions_framework
 
 @functions_framework.http
-def hello_world1(request):
+def function_cicd(request):
     """HTTP Cloud Function.
     Args:
         request (flask.Request): The request object.
@@ -19,5 +19,5 @@ def hello_world1(request):
     elif request_args and 'name' in request_args:
         name = request_args['name']
     else:
-        name = 'Function -1 V2.0'
+        name = 'Function -1 V1.0 cloud functions'
     return 'Hello {}!'.format(name)
