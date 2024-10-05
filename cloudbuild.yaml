@@ -12,7 +12,7 @@ steps:
       --trigger-http \
       --runtime=python310 \
       --allow-unauthenticated \
-      --set-env-vars=GOOGLE_CLOUD_PROJECT=$gcp-devops-435917D
+      --set-env-vars=GOOGLE_CLOUD_PROJECT=$PROJECT_ID
 options:
   logging: CLOUD_LOGGING_ONLY
   logStreamingOption: STREAM_ON
