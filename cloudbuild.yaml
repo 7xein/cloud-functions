@@ -1,3 +1,4 @@
+serviceAccount: 'projects/gcp-devops-435917/serviceAccounts/cicd-sa@gcp-devops-435917.iam.gserviceaccount.com'
 steps:
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk:slim'
   entrypoint: 'bash'
